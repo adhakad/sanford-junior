@@ -1,0 +1,688 @@
+@import'../../../app.component.css';
+
+.home {
+   overflow: hidden;
+}
+
+/* .main-card {
+   background-color: #64748d15;
+   padding-bottom: 3vh;
+} */
+.white-color {
+   color: #fff !important;
+}
+
+.dark-red-color {
+   background-color: rgba(239, 55, 101, 0.953);
+}
+
+.dark-pink-color {
+   background-color: rgba(239, 55, 165, 0.953);
+}
+
+.dark-yellow-color {
+   background-color: rgba(238, 166, 24, 0.888);
+}
+
+.dark-green-color {
+   background-color: rgba(32, 131, 5, 0.759);
+}
+
+.dark-blue-color {
+   background-color: rgba(6, 0, 179, 0.693);
+}
+
+.dark-skyblue-color {
+   background-color: rgb(62, 162, 225);
+}
+
+.light-red-color {
+   background-color: rgba(255, 226, 239, 0.953);
+}
+
+.light-pink-color {
+   background-color: rgba(255, 226, 250, 0.953);
+}
+
+.light-yellow-color {
+   background-color: rgba(254, 242, 217, 0.888);
+}
+
+.light-green-color {
+   background-color: rgba(224, 255, 215, 0.759);
+}
+
+.light-skyblue-color {
+   background-color: rgb(215, 240, 255);
+}
+
+.light-purpleblue-color {
+   background-color: rgb(232, 215, 255);
+}
+
+.extra-light-red-color {
+   background-color: rgba(255, 240, 247, 0.953);
+}
+
+.extra-light-pink-color {
+   background-color: rgba(255, 240, 253, 0.953);
+}
+
+.extra-light-yellow-color {
+   background-color: rgba(255, 250, 240, 0.888);
+}
+
+.extra-light-green-color {
+   background-color: rgba(243, 254, 241, 0.759);
+}
+
+.extra-light-skyblue-color {
+   background-color: rgb(237, 248, 255);
+}
+
+.extra-light-purpleblue-color {
+   background-color: rgb(245, 237, 255);
+}
+
+.banner-card {
+   height: 35vh !important;
+   max-width: 100% !important;
+}
+
+.side-banner {
+   height: auto;
+}
+.side-banner .section-a{
+   /* padding: 15px; */
+   height: auto;
+}
+.side-banner .section-b{
+   /* padding: 15px; */
+   margin-top: -25vh;
+}
+.side-banner .section-b .img-section img{
+   height: 50px;
+}
+.side-banner .section-b .img-section p{
+   color: #21409a;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 15px;
+}
+.side-banner p{
+   color: #252525;
+   font-size: 18px;
+   /* margin-bottom: 40px; */
+}
+.side-banner img {
+   height: 37%;
+}
+
+.title h2 {
+   color: #21409a;
+   font-size: 35px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   line-height: 50px;
+   text-align: center;
+}
+
+.title h2 span {
+   color: rgb(239, 104, 51);
+   font-weight: bold !important;
+   text-align: center;
+}
+
+.title p {
+   color: #000;
+   font-size: 16px;
+   line-height: 28px;
+}
+
+.title .p2 {
+   color: #000;
+   font-size: 16px;
+   margin-top: 30px;
+   line-height: 25px;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.padding-top {
+   padding-top: 30px;
+}
+
+.padding-bottom {
+   padding-bottom: 30px;
+}
+
+.our-program {
+   background-color: #fff;
+   padding-top: 60px;
+   padding-bottom: 50px;
+}
+
+
+.our-program .program-card {
+   height: 460px !important;
+   width: 295px !important;
+   border-radius: 20px;
+   justify-content: center;
+   margin-top: 40px;
+   border: 2px solid #21409a;
+}
+
+.our-program .program-card .card-img-circle {
+   width: 292px;
+   height: 150px;
+   border-radius: 15px;
+}
+
+.our-program .program-card .card-img-circle img {
+   width: 292px;
+   height: 225px;
+   border-radius:15px;
+   margin-bottom: 30px;
+}
+
+.our-program .program-card h3 {
+   color: #21409a;
+   font-size: 26px;
+   text-align: center;
+   margin-top: 100px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   font-weight: 600;
+}
+.our-program .program-card h4{
+   color: #e95d32;
+   font-size: 20px;
+   text-align: center;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   font-weight: 600;
+}
+
+.our-program .program-card p {
+   color: #21409a;
+   font-size: 16px;
+   text-align: left;
+   margin-left: 25px;
+   margin-right: 25px;
+   margin-bottom: 25px;
+   line-height: 25px;
+}
+.testimonial-card .owl-stage {
+   right: 30;
+}
+
+.testimonial-card {
+   background-color: #fff;
+   height: 300px;
+   width: 250px;
+   margin-top: 5vh;
+   margin-bottom: 2vh;
+   text-align: center;
+   border: 3px solid #21409a;
+   border-radius: 15px;
+   justify-content: center;
+   
+}
+
+.testimonial-card .img-container {
+   padding-top: 20px;
+   border-radius: 50%;
+}
+
+.testimonial-card img {
+   max-width: 85px;
+   max-height: 85px;
+}
+
+.testimonial-card h3 {
+   color: #21409a;
+   font-size: 16px;
+   letter-spacing: .5px;
+   text-align: center;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.curriculam {
+   height: auto;
+   max-height: 150vh;
+   padding-top: 30px;
+   padding-bottom: 50px;
+}
+
+.curriculam img {
+   height: 18%;
+   margin-top: 50px;
+}
+
+.trade-parter {
+   max-height: 50vh;
+   background-color: #3172bb;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.trade-parter img {
+   width: 100%;
+}
+
+.growth-story {
+   background-color: #fff;
+   max-height: 50vh;
+   padding-bottom: 30px;
+}
+
+.growth-story img {
+   width: 100%;
+}
+
+.franchise-opportunity {
+   background-color: #fff8f5;
+   height: auto;
+   padding-bottom: 10vh;
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+}
+
+.franchise-opportunity img {
+   width: 100%;
+}
+
+.franchise-heading{
+   margin-top: 30px;
+}
+
+.franchise-opportunity h4 {
+   color: #21409a;
+   font-size: 24px;
+   font-weight: 500;
+   letter-spacing: .5px;
+}
+
+.img-column {
+   padding: 10px;
+   margin-top: 5px !important;
+}
+
+.img-column img {
+   width: 100%;
+}
+
+.awards {
+   height: auto;
+   max-height: 125vh;
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+}
+
+.awards .award-carousel {
+   padding-top: 10px !important;
+   padding-left: 10px !important;
+   padding-right: 10px !important;
+   padding-bottom: 50px !important;
+}
+
+.awards img {
+   width: 155px !important;
+   height: 155px !important;
+}
+
+.owl-carousel .animated {
+   animation-duration: 1000ms;
+   animation-fill-mode: both;
+}
+
+.submit-button1 {
+   position: fixed;
+   top: 70vh;
+   right: 1%;
+   z-index: 10;
+   height: 45px;
+   width: 165px;
+   background: rgb(255, 0, 123);
+   color: #FFF;
+   margin-top: 10px !important;
+   box-shadow: none !important;
+}
+
+.submit-button2 {
+   position: fixed;
+   top: 78vh;
+   right: 1%;
+   z-index: 10;
+   height: 45px;
+   width: 165px;
+   background: rgb(255, 0, 123);
+   color: #FFF;
+   margin-top: 10px !important;
+   box-shadow: none !important;
+}
+
+
+
+
+
+ 
+ .video-container {
+   position: relative;
+   width: 100%; /* Full width */
+   min-height: 225px;
+   max-height: 225px;
+   overflow: hidden;
+   margin-bottom: 10px;
+   border-radius: 15px;
+ }
+ 
+ .video-container iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border: 0; /* Remove iframe border */
+ }
+ 
+ .thumbnail-image {
+   width: 100%;
+   height: auto;
+   cursor: pointer; /* Show cursor as pointer when hovering over thumbnail */
+ }
+@media (min-width: 576px) and (max-width:991.98px) {
+   .home {
+      display: none;
+   }
+}
+
+
+@media (min-width: 992px) {
+
+   .home {
+   }
+
+   .banner-card {
+      height: 90vh !important;
+      max-width: 100% !important;
+   }
+
+   .side-banner {
+      height: auto;
+   }
+   .side-banner .section-a{
+      padding: 15px;
+   }
+   .side-banner .section-b{
+      margin-top: 0;
+      padding: 15px;
+   }
+   .side-banner .section-b .img-section img{
+      height: 70px;
+   }
+   .side-banner .section-b .img-section p{
+      color: #21409a;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 25px;
+   }
+   .side-banner p{
+      color: #252525;
+      font-size: 18px;
+      margin-bottom: 40px;
+   }
+   .side-banner img {
+      height: 60%;
+   }
+   
+
+   .content-margin {
+      margin-top: 0px !important;
+   }
+
+   .title h2 {
+      color: #21409a;
+      font-size: 50px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 60px;
+      text-align: center;
+   }
+
+   .title h2 span {
+      color: rgb(239, 104, 51);
+      font-weight: bold !important;
+   }
+
+   .title p {
+      color: #000;
+      font-size: 16px;
+      line-height: 28px;
+   }
+
+   .title .p2 {
+      color: #000;
+      font-size: 16px;
+      margin-top: 30px;
+      line-height: 28px;
+   }
+
+   .text-center {
+      text-align: center;
+   }
+
+   .padding-top {
+      padding-top: 30px;
+   }
+
+   .padding-bottom {
+      padding-bottom: 30px;
+   }
+
+   .our-program {
+      background-color: #fff;
+      padding-top: 0;
+      padding-bottom: 50px;
+   }
+
+   .our-program .program-card {
+      height: 460px !important;
+      width: 295px !important;
+      border-radius: 20px;
+      justify-content: center;
+      margin-top: 40px;
+      border: 2px solid #21409a;
+   }
+
+   .our-program .program-card .card-img-circle {
+      width: 292px;
+      height: 150px;
+      border-radius: 15px;
+   }
+
+   .our-program .program-card .card-img-circle img {
+      width: 292px;
+      height: 225px;
+      border-radius:15px;
+      margin-bottom: 30px;
+   }
+
+   .our-program .program-card h3 {
+      color: #21409a;
+      font-size: 26px;
+      text-align: center;
+      margin-top: 100px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      font-weight: 600;
+   }
+   .our-program .program-card h4{
+      color: #e95d32;
+      font-size: 20px;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      font-weight: 600;
+   }
+
+   .our-program .program-card p {
+      color: #21409a;
+      font-size: 16px;
+      text-align: left;
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 25px;
+      line-height: 25px;
+   }
+   .testimonial-card .owl-stage {
+      right: 30;
+   }
+   
+   .testimonial-card {
+      background-color: #fff;
+      height: 300px;
+      width: 250px;
+      margin-top: 5vh;
+      margin-bottom: 2vh;
+      text-align: center;
+      border: 3px solid #21409a;
+      border-radius: 15px;
+      justify-content: center;
+      
+   }
+   
+   .testimonial-card .img-container {
+      padding-top: 20px;
+   }
+   
+   /* .testimonial-card .mat-icon {
+      font-size: 200%;
+   } */
+   .testimonial-card .custom-icon-size-large {
+      color:#21409a;
+      font-size: 100px;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+    }
+   
+   .testimonial-card h3 {
+      color: #21409a;
+      font-size: 30px;
+      font-weight: 600;
+      letter-spacing: .5px;
+      line-height: 35px;
+      text-align: center;
+      margin-left: 20px;
+      margin-right: 20px;
+      
+   }
+   .curriculam {
+      height: auto;
+      max-height: 80vh;
+   }
+
+   .curriculam img {
+      height: 25%;
+   }
+
+   .trade-parter {
+      max-height: 70vh;
+      background-color: #3172bb;
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 0 !important;
+   }
+
+   .trade-parter img {
+      width: 80%;
+   }
+
+   .growth-story {
+      background-color: #fff;
+      max-height: 50vh;
+      padding-bottom: 50px;
+   }
+
+   .growth-story img {
+      width: 100%;
+   }
+
+   .franchise-opportunity {
+      background-color: #fff8f5;
+      height: auto;
+      padding-top: 50px;
+      padding-bottom: 20vh;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+   }
+
+   .franchise-opportunity img {
+      height: 68vh;
+   }
+   .franchise-heading{
+      margin-top: 20px;
+   }
+   .franchise-opportunity h4 {
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: .5px;
+   }
+
+   .img-column {
+      padding: 5px;
+      margin-top: 5px !important;
+   }
+
+   .img-column img {
+      width: 100%;
+   }
+
+   .awards {
+      height: 100vh;
+      max-height: 100vh;
+      padding-top: 5vh;
+   }
+
+   .awards .award-carousel {
+      padding-top: 10px !important;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      padding-bottom: 50px !important;
+   }
+
+   .awards img {
+      width: 155px !important;
+      height: 155px !important;
+   }
+
+   .owl-carousel .animated {
+      animation-duration: 1000ms;
+      animation-fill-mode: both;
+   }
+
+   .submit-button1 {
+      position: fixed;
+      top: 75vh;
+      right: 1%;
+      z-index: 10;
+      margin-top: 10px !important;
+   }
+
+   .submit-button2 {
+      position: fixed;
+      top: 83vh;
+      right: 1%;
+      z-index: 10;
+      margin-top: 10px !important;
+   }
+}
