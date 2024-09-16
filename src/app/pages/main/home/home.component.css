@@ -85,7 +85,7 @@
 }
 
 .banner-card {
-   height: 35vh !important;
+   height: 40vh !important;
    max-width: 100% !important;
 }
 
@@ -216,16 +216,33 @@
    margin-bottom: 25px;
    line-height: 25px;
 }
+.franchise-opportunity {
+   background-color: #fff8f5;
+   height: auto;
+   padding-bottom: 10vh;
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+}
+.franchise-opportunity .img-container-1{
+   height: 30vh;
+}
+
+.franchise-opportunity img {
+   height: 75%;
+   margin-left: 25%;
+}
+
 .testimonial-card .owl-stage {
-   right: 30;
+   right: 10;
 }
 
 .testimonial-card {
    background-color: #fff;
-   height: 300px;
-   width: 250px;
-   margin-top: 5vh;
+   width: 100%;
+   height: 220px;
+   margin-top: 0;
    margin-bottom: 2vh;
+   margin-left: 1px;
    text-align: center;
    border: 3px solid #21409a;
    border-radius: 15px;
@@ -234,23 +251,55 @@
 }
 
 .testimonial-card .img-container {
-   padding-top: 20px;
-   border-radius: 50%;
+   padding-top: 0px;
 }
 
-.testimonial-card img {
-   max-width: 85px;
-   max-height: 85px;
-}
+/* .testimonial-card .mat-icon {
+   font-size: 200%;
+} */
+.testimonial-card .custom-icon-size-large {
+   color:#21409a;
+   font-size: 65px;
+   width: 100px;
+   height: 100px;
+   line-height: 100px;
+ }
 
 .testimonial-card h3 {
    color: #21409a;
-   font-size: 16px;
+   font-size: 20px;
+   font-weight: 600;
    letter-spacing: .5px;
+   line-height: 35px;
    text-align: center;
    margin-left: 20px;
    margin-right: 20px;
+   
 }
+.features {
+   height: auto;
+   text-align: center;
+}
+
+.features .img-section img{
+   height: 75px;
+   margin-top: 20px;
+}
+.features .img-section p{
+   color: #000;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 20px;
+   margin-top: 20px;
+}
+
+
+
+
+
+
+
+
 
 .curriculam {
    height: auto;
@@ -286,17 +335,7 @@
    width: 100%;
 }
 
-.franchise-opportunity {
-   background-color: #fff8f5;
-   height: auto;
-   padding-bottom: 10vh;
-   padding-left: 0 !important;
-   padding-right: 0 !important;
-}
 
-.franchise-opportunity img {
-   width: 100%;
-}
 
 .franchise-heading{
    margin-top: 30px;
@@ -543,6 +582,23 @@
       margin-bottom: 25px;
       line-height: 25px;
    }
+   .franchise-opportunity {
+      background-color: #fff8f5;
+      height: auto;
+      padding-top: 50px;
+      padding-bottom: 20vh;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+   }
+
+   .franchise-opportunity .img-container-1{
+      height: auto;
+   }
+   
+   .franchise-opportunity img {
+      height: 100%;
+      margin-left: 0;
+   }
    .testimonial-card .owl-stage {
       right: 30;
    }
@@ -551,7 +607,7 @@
       background-color: #fff;
       height: 300px;
       width: 250px;
-      margin-top: 5vh;
+      margin-top: 15vh;
       margin-bottom: 2vh;
       text-align: center;
       border: 3px solid #21409a;
@@ -586,6 +642,33 @@
       margin-right: 20px;
       
    }
+
+   .features {
+      height: auto;
+   }
+   
+   .features .img-section img{
+      height: 100px;
+      margin-top: 20px;
+   }
+   .features .img-section p{
+      color: #000;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 20px;
+      margin-top: 20px;
+   }
+
+
+
+
+
+
+
+
+
+
+
    .curriculam {
       height: auto;
       max-height: 80vh;
@@ -617,18 +700,7 @@
       width: 100%;
    }
 
-   .franchise-opportunity {
-      background-color: #fff8f5;
-      height: auto;
-      padding-top: 50px;
-      padding-bottom: 20vh;
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-   }
-
-   .franchise-opportunity img {
-      height: 68vh;
-   }
+   
    .franchise-heading{
       margin-top: 20px;
    }
