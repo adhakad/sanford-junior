@@ -11,6 +11,7 @@ import { MatDatetimepickerModule } from '@mat-datetimepicker/core';
 import { NgxMatFileInputModule } from '@angular-material-components/file-input';
 import { FooterModule } from 'src/app/common/footer/footer.module';
 import { SharedPipeModule } from 'src/app/pipes/shared-pipe/shared-pipe.module';
+import { ParentsCardsModule } from '../parents-cards/parents-cards.module';
 
 
 
@@ -32,7 +33,8 @@ import { SharedPipeModule } from 'src/app/pipes/shared-pipe/shared-pipe.module';
     MatMomentDatetimeModule,
     MatDatetimepickerModule,
     NgxMatFileInputModule,
-    SharedPipeModule
+    SharedPipeModule,
+    ParentsCardsModule
   ]
 })
 export class MainSharedModule { }

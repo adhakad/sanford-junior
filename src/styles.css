@@ -7,7 +7,7 @@ body {
 
 :host {
   /* --common-color: #8c65ff;  */
-  --common-color: #21409a;
+  --common-color: #fff;
   --header-height: 12vh;
 }
 
