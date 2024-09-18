@@ -16,6 +16,17 @@ const routes: Routes = [
   { path: 'about', loadChildren: () => import('src/app/pages/main/about/about.module').then((module) => module.AboutModule) },
   { path: 'contact', loadChildren: () => import('src/app/pages/main/contact/contact.module').then((module) => module.ContactModule) },
 
+
+
+
+
+  { path: 'toddler', loadChildren: () => import('src/app/pages/main/our-programs/toddler/toddler.module').then((module) => module.ToddlerModule) },
+  { path: 'playgroup', loadChildren: () => import('src/app/pages/main/our-programs/playgroup/playgroup.module').then((module) => module.PlaygroupModule) },
+  { path: 'nursery', loadChildren: () => import('src/app/pages/main/our-programs/nursery/nursery.module').then((module) => module.NurseryModule) },
+  { path: 'san-junior', loadChildren: () => import('src/app/pages/main/our-programs/sanjunior/sanjunior.module').then((module) => module.SanjuniorModule) },
+  { path: 'san-senior', loadChildren: () => import('src/app/pages/main/our-programs/sansenior/sansenior.module').then((module) => module.SanseniorModule) },
+
+
   { path: 'curriculam', loadChildren: () => import('src/app/pages/main/our-system/curriculam/curriculam.module').then((module) => module.CurriculamModule) },
   { path: 'activities', loadChildren: () => import('src/app/pages/main/our-system/activities/activities.module').then((module) => module.ActivitiesModule) },
   { path: 'programs', loadChildren: () => import('src/app/pages/main/our-system/programs/programs.module').then((module) => module.ProgramsModule) },
@@ -54,12 +65,12 @@ const routes: Routes = [
   { path: 'admin/setting/school/detail', loadChildren: () => import('src/app/pages/admin/school/school.module').then((module) => module.SchoolModule), canActivate: [AdminAuthGuard] },
 
   { path: 'admin/students/:id', loadChildren: () => import('src/app/pages/admin/admin-student-cls/admin-student-cls.module').then((module) => module.AdminStudentClsModule), canActivate: [AdminAuthGuard] },
-  { path: 'admin/students/student/class/:id', loadChildren: () => import('src/app/pages/admin/student/student.module').then((module) => module.StudentModule), canActivate: [AdminAuthGuard] },  
+  { path: 'admin/students/student/class/:id', loadChildren: () => import('src/app/pages/admin/student/student.module').then((module) => module.StudentModule), canActivate: [AdminAuthGuard] },
   { path: 'admin/students/result/class/:id', loadChildren: () => import('src/app/pages/admin/admin-student-result/admin-student-result.module').then((module) => module.AdminStudentResultModule), canActivate: [AdminAuthGuard] },
   { path: 'admin/students/admit-card/class/:id', loadChildren: () => import('src/app/pages/admin/admin-student-admit-card/admin-student-admit-card.module').then((module) => module.AdminStudentAdmitCardModule), canActivate: [AdminAuthGuard] },
   { path: 'admin/students/fees/class/:id', loadChildren: () => import('src/app/pages/admin/admin-student-fees/admin-student-fees.module').then((module) => module.AdminStudentFeesModule), canActivate: [AdminAuthGuard] },
   { path: 'admin/students/fees/class/statement/:class/:id', loadChildren: () => import('src/app/pages/admin/admin-student-fees-statement/admin-student-fees-statement.module').then((module) => module.AdminStudentFeesStatementModule), canActivate: [AdminAuthGuard] },
-  
+
   { path: 'admin/online-admission-forms', loadChildren: () => import('src/app/pages/admin/admin-online-admission/admin-online-admission.module').then((module) => module.AdminOnlineAdmissionModule), canActivate: [AdminAuthGuard] },
   { path: 'admin/admission', loadChildren: () => import('src/app/pages/admin/admission/admission.module').then((module) => module.AdmissionModule), canActivate: [AdminAuthGuard] },
   { path: 'admin/teacher', loadChildren: () => import('src/app/pages/admin/teacher/teacher.module').then((module) => module.TeacherModule), canActivate: [AdminAuthGuard] },
@@ -78,8 +89,8 @@ const routes: Routes = [
   { path: 'teacher/signup', loadChildren: () => import('src/app/pages/auth/teacher-auth/teacher-signup/teacher-signup.module').then((module) => module.TeacherSignupModule) },
   { path: 'teacher/login', loadChildren: () => import('src/app/pages/auth/teacher-auth/teacher-login/teacher-login.module').then((module) => module.TeacherLoginModule) },
   { path: 'teacher/dashboard', loadChildren: () => import('src/app/pages/teacher/teacher-dashboard/teacher-dashboard.module').then((module) => module.TeacherDashboardModule), canActivate: [TeacherAuthGuard] },
-  
-  
+
+
   { path: 'teacher/student/:id', loadChildren: () => import('src/app/pages/teacher/teacher-student-cls/teacher-student-cls.module').then((module) => module.TeacherStudentClsModule), canActivate: [TeacherAuthGuard] },
   { path: 'teacher/student/result/class/:id', loadChildren: () => import('src/app/pages/teacher/teacher-result/teacher-result.module').then((module) => module.TeacherResultModule), canActivate: [TeacherAuthGuard] },
   { path: 'teacher/student/admit-card/class/:id', loadChildren: () => import('src/app/pages/teacher/teacher-admit-card/teacher-admit-card.module').then((module) => module.TeacherAdmitCardModule), canActivate: [TeacherAuthGuard] },

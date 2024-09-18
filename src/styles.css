@@ -525,8 +525,10 @@ Header section
 
 
   .header .main-menu .menu-item {
-    color: #000000;
-    font: 16px sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500;
     letter-spacing: .85px;
   }
 

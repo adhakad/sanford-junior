@@ -17,12 +17,12 @@
       <span class="menu-item" style="font-family:Menlo">About Us</span>
     </button>
     <button #button mat-button [matMenuTriggerFor]="ourSystemMenu">
-      <span class="menu-item" style="font-family:Menlo">Our System</span><mat-icon>keyboard_arrow_down</mat-icon>
+      <span class="menu-item" style="font-family:Menlo">Our programs</span><mat-icon>keyboard_arrow_down</mat-icon>
     </button>
 
-    <button #button mat-button routerLink="/admissions">
+    <!-- <button #button mat-button routerLink="/admissions">
       <span class="menu-item" style="font-family:Menlo">Admissions</span>
-    </button>
+    </button> -->
     <button #button mat-button routerLink="/franchise">
       <span class="menu-item" style="font-family:Menlo">Franchise</span>
     </button>
@@ -40,25 +40,25 @@
 </mat-menu>
 
 <mat-menu #ourSystemMenu="matMenu" class="desktop-menu">
-  <button mat-menu-item routerLink="/curriculam">
+  <button mat-menu-item routerLink="/toddler">
     <mat-icon>auto_stories</mat-icon>
-    <span>Our Curriculam</span>
+    <span>Toddler</span>
   </button>
-  <button mat-menu-item routerLink="/programs">
+  <button mat-menu-item routerLink="/playgroup">
     <mat-icon>flutter_dash</mat-icon>
-    <span>Programs</span>
+    <span>Playgroup</span>
   </button>
-  <button mat-menu-item routerLink="/facilities">
+  <button mat-menu-item routerLink="/nursery">
     <mat-icon>compost</mat-icon>
-    <span>Facilities</span>
+    <span>Nursery</span>
   </button>
-  <button mat-menu-item routerLink="/activities">
+  <button mat-menu-item routerLink="/san-junior">
     <mat-icon>keyboard_command_key</mat-icon>
-    <span>Activities</span>
+    <span>SanJunior</span>
   </button>
-  <button mat-menu-item routerLink="/events-celebrations">
+  <button mat-menu-item routerLink="/san-senior">
     <mat-icon>celebration</mat-icon>
-    <span>Events & Celebrations</span>
+    <span>SanSenior</span>
   </button>
   <button mat-menu-item routerLink="/safety-hygiene">
     <mat-icon>safety_check</mat-icon>
@@ -71,14 +71,6 @@
   <button mat-menu-item routerLink="/parents-connect">
     <mat-icon>family_restroom</mat-icon>
     <span>Parents Connect</span>
-  </button>
-  <button mat-menu-item routerLink="/admit-card">
-    <mat-icon>assignment</mat-icon>
-    <span>Admit Card</span>
-  </button>
-  <button mat-menu-item routerLink="/result">
-    <mat-icon>content_paste_search</mat-icon>
-    <span>Exam Results</span>
   </button>
   <button mat-menu-item *ngIf="!isAdminAuthenticated && !isTeacherAuthenticated && !isStudentAuthenticated"
   routerLink="/admin/login">
@@ -126,13 +118,13 @@
       <span>Our System</span>
       <mat-icon>arrow_drop_down</mat-icon>
     </button>
-    <button mat-menu-item routerLink="/admissions">
+    <!-- <button mat-menu-item routerLink="/admissions">
       <mat-icon>list_alt</mat-icon>
       <span>Admission</span>
-    </button>
+    </button> -->
     <button mat-menu-item routerLink="/franchise">
       <mat-icon>apartment</mat-icon>
-      <span>Franchise</span>
+      <span>Franchise Opportunity</span>
     </button>
     <button mat-menu-item routerLink="/contact">
       <mat-icon>call</mat-icon>

@@ -27,7 +27,7 @@ h4 {
 .admission-form {
     background-color: #fff;
     height: auto;
-    border-radius: 0 50px 0 50px;
+    border-radius: 20px;
     padding: 35px 30px 35px 30px;
     margin-top: 30px;
 }
@@ -39,6 +39,32 @@ h4 {
 .submit-button {
     width: 100%;
 }
+.features {
+    height: auto;
+    text-align: center;
+    padding-bottom: 5vh;
+ }
+ 
+ .features .img-section img{
+    height: 75px;
+    margin-top: 20px;
+ }
+ .features .img-section p{
+    color: #21409a;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 20px;
+ }
+
+
+
+
+
+
+
+
+
 
 .general-info-card {
     margin-top: 20px;
@@ -123,7 +149,7 @@ h5 span {
     .admission-form {
         background-color: #fff;
         height: auto;
-        border-radius: 0 50px 0 50px;
+        border-radius: 20px;
         padding: 35px 30px 35px 30px;
         margin-top: 0;
     }
@@ -135,6 +161,25 @@ h5 span {
     .submit-button {
         width: 100%;
     }
+    .features {
+        height: auto;
+     }
+     
+     .features .img-section img{
+        height: 100px;
+        margin-top: 20px;
+     }
+     .features .img-section p{
+        color: #21409a;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 20px;
+     }
+
+
+
+
 
     h4 {
         color: #000;
