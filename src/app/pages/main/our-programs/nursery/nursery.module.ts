@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { NurseryRoutingModule } from './nursery-routing.module';
 import { NurseryComponent } from './nursery.component';
+import { MainSharedModule } from '../../main-shared/main-shared.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { NurseryComponent } from './nursery.component';
   ],
   imports: [
     CommonModule,
-    NurseryRoutingModule
+    NurseryRoutingModule,
+    MainSharedModule
   ]
 })
 export class NurseryModule { }

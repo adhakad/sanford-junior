@@ -1,0 +1,44 @@
+@import"../../home/home.component.css";
+.img-column{
+    
+}
+.img-column img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img-column p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.features p{
+    color: #21409a;
+}
+.overview h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #21409a;
+    margin-top: 20px;
+}
+
+.nature h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #21409a;
+    margin-top: 35px;
+}
+@media (min-width: 992px) {
+    .img-column{
+    
+    }
+    .img-column img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .overview h4{
+        font-size: 18px;
+        font-weight: 600;
+        color: #21409a;
+        margin-top: 20px;
+    } 
+}

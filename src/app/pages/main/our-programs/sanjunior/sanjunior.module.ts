@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { SanjuniorRoutingModule } from './sanjunior-routing.module';
 import { SanjuniorComponent } from './sanjunior.component';
+import { MainSharedModule } from '../../main-shared/main-shared.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { SanjuniorComponent } from './sanjunior.component';
   ],
   imports: [
     CommonModule,
-    SanjuniorRoutingModule
+    SanjuniorRoutingModule,
+    MainSharedModule
   ]
 })
 export class SanjuniorModule { }
