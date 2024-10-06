@@ -1,10 +1,10 @@
 .footer {
-   background-color: rgb(238, 239, 241);
+   background-color: #21409a;
    overflow: hidden;
 }
 
 .mat-divider {
-   background-color: #000;
+   background-color: #fff;
 }
 
 .footer-card {
@@ -12,13 +12,13 @@
 }
 
 .footer-card h3 {
-   color: rgb(63, 98, 167);
+   color: #fff;
    font-size: 25px;
    letter-spacing: .5px;
 }
 
 .footer-card .footer-item p {
-   color: #000;
+   color: #fff;
    font-size: 16px;
    letter-spacing: .5px;
    margin-top: 25px;
@@ -31,7 +31,7 @@
 }
 
 .copyright {
-   background-color: rgb(36, 8, 71);
+   background-color: #21409a;
    height: 15vh;
    padding-top: 5px;
    padding-bottom: 10px;
@@ -45,12 +45,12 @@
 }
 
 .copyright p span {
-   color: rgb(171, 171, 255);
+   color: #fff;
    cursor: pointer;
 }
 
 .copyright p span:hover {
-   color: #8d6dff;
+   color: #fff;
 }
 
 .margin-social-media-icon {
@@ -61,7 +61,7 @@
 .bi-linkedin,
 .bi-instagram,
 .bi-youtube {
-   color: rgb(63, 98, 167);
+   color: #fff;
    font-size: 2em;
    cursor: pointer;
    margin-right: 20px;
@@ -75,7 +75,7 @@
 }
 
 .mat-icon {
-   color: rgb(63, 98, 167);
+   color: #fff;
    display: inline;
 }
 
