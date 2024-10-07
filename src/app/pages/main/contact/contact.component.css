@@ -1,13 +1,107 @@
-@import"../home/home.component.css";
-.contact-card{
-    width: 100%;
-    min-height: 200px;
-    margin-top: 20px;
-    padding:  50px 30px 30px 50px;
+@import'../home/home.component.css';
+@import'../home/home.component.css';
+
+.side-banner {
+    height: auto !important;
 }
 
-.contact-card h4{
-    color: #000;
-    font-size: 18px;
-    font-weight: 500px;
+.side-banner .container-section {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.core-team {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.core-team .padding {
+    padding: 30px;
+}
+
+.core-team .program-card {
+    background-color: transparent;
+    height: auto;
+    padding: 0;
+    border: 2px solid #d0d1d6;
+    box-shadow: none;
+    border-radius: 30px;
+    padding-bottom: 30px;
+}
+
+.core-team .program-card .top-title {
+    padding-top: 20px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+.core-team .program-card h5 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.core-team .program-card p {
+    text-align: left;
+    font-size: 16px;
+    color: #6b7697e4;
+}
+
+.red-color {
+    background-color: rgb(232, 29, 66);
+}
+
+.darkblue-color {
+    background-color: #21409a;
+}
+
+@media (min-width: 992px) {
+    .side-banner {
+        height: auto !important;
+    }
+
+    .side-banner .container-section {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+
+    .core-team {
+        background-color: #fff;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .core-team .padding {
+        padding: 50px 50px 10px 50px;
+    }
+
+    .core-team .program-card {
+        background-color: transparent;
+        height: auto;
+        border: 2px solid #d0d1d6;
+        box-shadow: none;
+    }
+
+    .core-team .program-card .top-title {
+        padding-top: 20px;
+        height: 60px;
+        border-radius: 30px 30px 30px 30px;
+        border: 2px solid rgb(232, 29, 66);
+        text-align: center;
+    }
+
+    .core-team .program-card .top-title h5 {
+        font-size: 26px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .core-team .program-card .top-title p {
+        text-align: left;
+        font-size: 16px;
+        color: #6b7697e4;
+    }
 }

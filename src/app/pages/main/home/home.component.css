@@ -414,15 +414,16 @@
 
 .submit-button1 {
    position: fixed;
-   top: 70vh;
+   top: 85vh;
    right: 1%;
    z-index: 10;
-   height: 45px;
+   height: 50px;
    width: 165px;
-   background: rgb(255, 0, 123);
+   background: #21409a;
    color: #FFF;
    margin-top: 10px !important;
    box-shadow: none !important;
+   border: 2px solid #fff;
 }
 
 .submit-button2 {
@@ -810,10 +811,11 @@
 
    .submit-button1 {
       position: fixed;
-      top: 75vh;
+      top: 85vh;
       right: 1%;
       z-index: 10;
       margin-top: 10px !important;
+      border: 2px solid #fff;
    }
 
    .submit-button2 {

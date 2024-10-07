@@ -20,20 +20,26 @@
       <span class="menu-item" style="font-family:Menlo">Our programs</span><mat-icon>keyboard_arrow_down</mat-icon>
     </button>
     <button #button mat-button routerLink="/franchise">
-      <span class="menu-item" style="font-family:Menlo">Franchise</span>
+      <span class="menu-item" style="font-family:Menlo">Franchise Opportunity</span>
     </button>
     <button #button mat-button routerLink="/contact">
       <span class="menu-item" style="font-family:Menlo">Contact Us</span>
     </button>
+    <button mat-icon-button style="background-color: #21409a;width: 48px; height: 48px;" [matMenuTriggerFor]="menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+        <circle cx="5" cy="12" r="2" fill="#fff"></circle>
+        <circle cx="12" cy="12" r="2" fill="#fff"></circle>
+        <circle cx="19" cy="12" r="2" fill="#fff"></circle>
+      </svg>
+    </button>
   </div>
 </mat-toolbar>
-
-
 <mat-menu #contactMenu="matMenu" class="desktop-menu">
   <button mat-menu-item routerLink="/contactMenu">
     <span>Contact Us</span>
   </button>
 </mat-menu>
+
 
 <mat-menu #ourSystemMenu="matMenu" class="desktop-menu">
   <button mat-menu-item routerLink="/toddler">
@@ -52,38 +58,52 @@
     <span>SanSenior</span>
   </button>
 </mat-menu>
+<mat-menu #menu="matMenu" class="desktop-menu">
+  <button mat-menu-item routerLink="/curriculam">
+    <span>Curriculam</span>
+  </button>
+  <button mat-menu-item routerLink="/parents-talk">
+    <span>Parents Talk</span>
+  </button>
+  <button mat-menu-item routerLink="/partners-talk">
+    <span>Partners Talk</span>
+  </button>
+</mat-menu>
 
 <div [ngClass]="{'top-hamburger-menu': false == nav}">
   <mat-toolbar class="hamburger-menu">
     <mat-icon class="close-icon" (click)="hamburgerMenu(false)">close</mat-icon>
     <button mat-menu-item routerLink="/" routerLinkActive="active-link" (click)="hamburgerMenu(true)">
-      <mat-icon>home</mat-icon>
+      <!-- <mat-icon>home</mat-icon> -->
       <span>Home</span>
     </button>
     <button mat-menu-item routerLink="/about">
-      <mat-icon>contact_support</mat-icon>
+      <!-- <mat-icon>contact_support</mat-icon> -->
       <span>About Us</span>
     </button>
-    <!-- Dropdown Trigger Button with Arrow -->
     <button mat-menu-item [matMenuTriggerFor]="mobileMenu">
-      <mat-icon>view_cozy</mat-icon>
+      <!-- <mat-icon>view_cozy</mat-icon> -->
       <span>Our Programs</span>
       <mat-icon>arrow_drop_down</mat-icon>
     </button>
-    <!-- <button mat-menu-item routerLink="/admissions">
-      <mat-icon>list_alt</mat-icon>
-      <span>Admission</span>
-    </button> -->
     <button mat-menu-item routerLink="/franchise">
-      <mat-icon>apartment</mat-icon>
+      <!-- <mat-icon>apartment</mat-icon> -->
       <span>Franchise Opportunity</span>
     </button>
+    <button mat-menu-item routerLink="/curriculam">
+      <span>Curriculam</span>
+    </button>
+    <button mat-menu-item routerLink="/parents-talk">
+      <span>Parents Talk</span>
+    </button>
+    <button mat-menu-item routerLink="/partners-talk">
+      <span>Partners Talk</span>
+    </button>
     <button mat-menu-item routerLink="/contact">
-      <mat-icon>call</mat-icon>
+      <!-- <mat-icon>call</mat-icon> -->
       <span>Contact Us</span>
     </button>
   </mat-toolbar>
-  <!-- Dropdown Menu -->
   <mat-menu #mobileMenu="matMenu" class="mobile-menu custom-menu">
     <button mat-menu-item routerLink="/toddler">
       <span>Toddler</span>

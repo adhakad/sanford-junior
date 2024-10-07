@@ -1,30 +1,78 @@
 <app-header></app-header>
-<div class="home">
-  <div class="row">
-    <div class="main-card">
-      <div class="container-fluid padding-top padding-bottom">
+<div class="home" style="background-color: #eaf5ff;">
+  <div class="container mt-2" style="background-color: #eaf5ff;padding-bottom: 10vh;">
+    <div class="row">
+      <div class="col-12 title mt-5">
+        <h2>Contact Us</h2>
+      </div>
+
+      <div class="container core-team" style="background-color: #eaf5ff;">
         <div class="row">
-          <div class="col-12 col-lg-12 title padding-top text-center padding-bottom">
-            <h2>CONTACT <span>US</span></h2>
-          </div>
-          <div class="col-lg-10 offset-lg-1">
+          <div class="col-lg-6">
             <div class="row">
-              <div class="col-12 col-lg-4">
-                <div class="contact-card light-yellow-color text-center">
-                  <h4>{{schoolInfo?.street}},
-                    {{schoolInfo?.city}},{{schoolInfo?.district}}, {{schoolInfo?.state}}
-                    ({{schoolInfo?.country}}) {{schoolInfo?.pinCode}}</h4>
+              <div class="col-lg-12 padding">
+                <div class="program-card">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="top-title red-color">
+                        <h5>Corporate Oﬃce</h5>
+                      </div>
+                      <h4
+                        style="text-align: left;margin-left: 3%;margin-right:3%;margin-top: 30px;font-size: 24px;font-weight: 600;">
+                        SANFORD JUNIOR PVT LTD</h4>
+                      <div class="row" style="padding-left: 3%;padding-right: 3%;">
+                        <div class="col-12">
+                          <p style="font-size: 18px;letter-spacing: 1px;line-height: 30px;">A-86, G3 Suryanagar
+                            Ghaziabad Utter Pradesh - 201011</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4">
-                <div class="contact-card light-skyblue-color text-center">
-                  <h4>Ph. : {{schoolInfo?.phoneOne}}</h4>
-                  <h4>Ph. : {{schoolInfo?.phoneSecond}}</h4>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-12 padding">
+                <div class="program-card">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="top-title red-color">
+                        <h5>Call Us</h5>
+                      </div>
+                      <h4
+                        style="text-align: left;margin-left: 3%;margin-right:3%;margin-top: 30px;font-size: 24px;font-weight: 600;line-height: 30px;">
+                        9999907099, 7568368506 </h4>
+                      <div class="row" style="padding-left: 3%;padding-right: 3%;">
+                        <div class="col-12">
+                          <p style="font-size: 18px;letter-spacing: 1px;line-height: 30px;">Monday to Friday 9.30 am to
+                            5.30 pm</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4">
-                <div class="contact-card light-pink-color text-center">
-                  <h4>{{schoolInfo?.email}}</h4>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-3">
+            <div class="row">
+              <div class="col-lg-12 padding">
+                <div class="program-card">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="top-title red-color">
+                        <h5>Email Us</h5>
+                      </div>
+                      <div class="row mt-4" style="padding-left: 3%;padding-right: 3%;">
+                        <div class="col-12">
+                          <p style="font-size: 18px;letter-spacing: 1px;line-height: 30px;">Feedback:
+                            sanfordjuniorindia@gmail.com</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -32,11 +80,6 @@
         </div>
       </div>
     </div>
-    <app-footer></app-footer>
   </div>
-  <div class="spinner-container" *ngIf="loader">
-    <div class="spinner-overlay" *ngIf="loader">
-      <mat-progress-spinner *ngIf="loader" diameter="65" mode="indeterminate" strokeWidth="3"></mat-progress-spinner>
-    </div>
-  </div>
+  <app-footer></app-footer>
 </div>

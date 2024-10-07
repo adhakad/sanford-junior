@@ -42,7 +42,7 @@ Header section
 }
 
 .header span {
-  color: #000;
+  color: #21409a;
   font: 1em sans-serif;
   letter-spacing: .5px;
 }
@@ -517,14 +517,14 @@ Header section
   }
 
   .header .main-menu button {
-    color: #000;
+    color: #21409a;
     margin-left: 20px;
     cursor: pointer;
   }
 
 
   .header .main-menu .menu-item {
-    color: #000;
+    color: #21409a;
     font-size: 16px;
     font-family: 'Poppins', sans-serif !important;
     font-weight: 500;
@@ -533,7 +533,7 @@ Header section
 
   .desktop-menu {
     width: 150%;
-    padding-left: 50px;
+    padding-left: 10px;
     padding-right: 50px;
   }
 

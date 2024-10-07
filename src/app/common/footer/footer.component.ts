@@ -11,10 +11,10 @@ export class FooterComponent implements OnInit {
   public schoolName = environment.SCHOOL_NAME;
   currentYear: any;
   schoolInfo:any;
-  facebook!:string;
-  linkedin!:string;
-  instagram!:string;
-  youtube!:string;
+  facebook:string='https://www.facebook.com/people/Sanford-Junior/61564942320502/?name=xhp_nt__fb__action__open_user';
+  linkedin:string='https://in.linkedin.com/company/sanford-junior';
+  instagram:string='https://www.instagram.com/sanfordjunior_suryanagar/';
+  youtube:string='https://www.youtube.com/@SanfordJunior';
   softwareCompanyLink:string='https://schooliya.in';
   constructor(private schoolService:SchoolService) { }
 
@@ -34,10 +34,10 @@ export class FooterComponent implements OnInit {
     this.schoolService.getSchool().subscribe((res:any)=> {
       if(res){
         this.schoolInfo = res;
-        this.facebook = res.facebookLink;
-        this.linkedin = res.linkedinLink;
-        this.instagram = res.instagramLink;
-        this.youtube = res.youtubeLink;
+        this.facebook = 'https://www.facebook.com/people/Sanford-Junior/61564942320502/?name=xhp_nt__fb__action__open_user';
+        this.linkedin = 'https://in.linkedin.com/company/sanford-junior';
+        this.instagram = 'https://www.instagram.com/sanfordjunior_suryanagar/';
+        this.youtube = 'https://www.youtube.com/@SanfordJunior';
         
       }
     })
